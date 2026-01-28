@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Minha To-Do List</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <form id="task-form">
+        <input type="text" id="title" placeholder="Título da tarefa" required />
+        <input type="text" id="description" placeholder="Descrição" required />
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section id="task-list"></section>
+  </main>
+
+  <footer>
+    <p>Projeto To-Do List - Front-end</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
